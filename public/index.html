@@ -3,15 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive Webpage</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Grid Page</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
   <!-- Header -->
   <header class="bg-light py-3">
     <nav class="container navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="#">Grid</a>
+      <a class="navbar-brand" href="#">
+        <svg width="70" height="64" viewBox="0 0 70 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M47.25 17.6H22.75C20.817 17.6 19.25 19.0327 19.25 20.8V43.2C19.25 44.9673 20.817 46.4 22.75 46.4H47.25C49.183 46.4 50.75 44.9673 50.75 43.2V20.8C50.75 19.0327 49.183 17.6 47.25 17.6Z" stroke="#6C5CE7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M19.25 27.2H50.75" stroke="#6C5CE7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M29.75 46.4V27.2" stroke="#6C5CE7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>        Grid
+      </a>    
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -40,55 +46,199 @@
   <!-- Hero Section -->
   <section class="hero-section text-center py-5">
     <div class="container">
-      <h1>Combine <span class="text-primary">fine</span> images</h1>
+      <h1>Combine <span class="text-primary underline">fine</span> images</h1>
       <p>To represent a product</p>
       <div class="row">
-        <div class="col-md-3 mb-4">
-          <img src="hero1.jpg" class="img-fluid" alt="Hero Image 1">
+      
+        <div class="container w-75">
+          <div class="row p-0 m-0">
+            <div class="col-md-4 pb-3 pl-2">
+              <img
+                src="assets/img/hero1.png"
+                class="w-100 rounded-xl"
+                alt=""
+              />
+            </div>
+            <div class="col-md-5 pb-3 pl-2">
+              <img
+                src="assets/img/hero2.png"
+                class="w-100 rounded-xl"
+                alt=""
+              />
+            </div>
+            <div class="col-md-3 pb-3 pl-2">
+              <img
+                src="assets/img/hero3.png"
+                class="w-100 rounded-xl"
+                alt=""
+              />
+            </div>
+            <div class="col-md-4 pb-3 pl-2">
+              <img
+                src="assets/img/hero4.png"
+                class="w-100 rounded-xl"
+                alt=""
+              />
+            </div>
+            <div class="col-md-3 pb-3 pl-2">
+              <img
+                src="assets/img/hero5.png"
+                class="w-100 rounded-xl"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
-        <div class="col-md-3 mb-4">
-          <img src="hero2.jpg" class="img-fluid" alt="Hero Image 2">
-        </div>
-        <div class="col-md-3 mb-4">
-          <img src="hero3.jpg" class="img-fluid" alt="Hero Image 3">
-        </div>
-        <div class="col-md-3 mb-4">
-          <img src="hero4.jpg" class="img-fluid" alt="Hero Image 4">
-        </div>
+        
       </div>
       <a href="#" class="btn btn-primary">Learn more</a>
     </div>
+
+
+    
   </section>
 
   <!-- "Delivering Good Designs" Section -->
-  <section class="design-section text-center py-5">
+  
+  <section class="design-section py-5">
     <div class="container">
       <h2>Delivering good designs since 1954</h2>
-      <p>We're the first multi-purpose design kit solutions for businesses.</p>
+      <p>We’re the first multi-purpose design kit solutions for businesses. We help you bridge
+        gaps between your layouts, templates and developers to empower all involved.</p>
       <div class="row">
         <div class="col-md-3 mb-4">
+          <svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="52.5" height="52.5" rx="12" fill="#FF7675"/>
+            <path d="M21 36.75H17.85C17.293 36.75 16.7589 36.5287 16.3651 36.1349C15.9712 35.7411 15.75 35.207 15.75 34.65V27.3C15.75 26.743 15.9712 26.2089 16.3651 25.8151C16.7589 25.4212 17.293 25.2 17.85 25.2H21M28.35 23.1V18.9C28.35 18.0646 28.0181 17.2634 27.4274 16.6726C26.8366 16.0819 26.0354 15.75 25.2 15.75L21 25.2V36.75H32.844C33.3504 36.7557 33.8419 36.5782 34.2278 36.2502C34.6137 35.9222 34.8681 35.4657 34.944 34.965L36.393 25.515C36.4387 25.214 36.4184 24.9067 36.3335 24.6144C36.2486 24.322 36.1012 24.0516 35.9015 23.8219C35.7017 23.5922 35.4544 23.4086 35.1766 23.284C34.8989 23.1593 34.5974 23.0966 34.293 23.1H28.35Z" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>          
           <h3>Support</h3>
-          <p>Get access to support.</p>
+          <p>Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>
           <a href="#" class="btn btn-outline-primary">Learn more</a>
         </div>
         <div class="col-md-3 mb-4">
+          <svg width="70" height="72" viewBox="0 0 70 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="70" height="70" rx="35" fill="#E84393"/>
+            <g filter="url(#filter0_dd_164_107372)">
+            <path d="M39.1134 26.6C40.4808 26.8668 41.7375 27.5356 42.7227 28.5207C43.7078 29.5059 44.3766 30.7626 44.6434 32.13M39.1134 21C41.9543 21.3156 44.6036 22.5878 46.6261 24.6078C48.6486 26.6278 49.9242 29.2754 50.2434 32.116M48.8434 43.288V47.488C48.8449 47.8779 48.7651 48.2638 48.6089 48.6211C48.4527 48.9783 48.2236 49.299 47.9363 49.5626C47.649 49.8262 47.3098 50.0269 46.9404 50.1518C46.5711 50.2767 46.1797 50.3231 45.7914 50.288C41.4833 49.8199 37.3452 48.3478 33.7094 45.99C30.3267 43.8405 27.4588 40.9726 25.3094 37.59C22.9433 33.9377 21.4709 29.7794 21.0114 25.452C20.9764 25.0649 21.0224 24.6747 21.1465 24.3063C21.2705 23.9379 21.47 23.5994 21.732 23.3123C21.9941 23.0252 22.3131 22.7958 22.6687 22.6387C23.0243 22.4817 23.4086 22.4004 23.7974 22.4H27.9974C28.6768 22.3933 29.3355 22.6339 29.8506 23.0769C30.3658 23.52 30.7023 24.1352 30.7974 24.808C30.9746 26.1521 31.3034 27.4718 31.7774 28.742C31.9657 29.2431 32.0065 29.7877 31.8948 30.3112C31.7832 30.8348 31.5238 31.3154 31.1474 31.696L29.3694 33.474C31.3623 36.979 34.2644 39.881 37.7694 41.874L39.5474 40.096C39.928 39.7196 40.4086 39.4602 40.9321 39.3485C41.4557 39.2369 42.0003 39.2776 42.5014 39.466C43.7715 39.94 45.0913 40.2687 46.4354 40.446C47.1154 40.5419 47.7365 40.8845 48.1805 41.4085C48.6245 41.9325 48.8604 42.6014 48.8434 43.288Z" stroke="#FFEAA7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+            <defs>
+            <filter id="filter0_dd_164_107372" x="-9" y="-5" width="88" height="88" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dy="4"/>
+            <feGaussianBlur stdDeviation="8"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0.14902 0 0 0 0 0.196078 0 0 0 0 0.219608 0 0 0 0.08 0"/>
+            <feBlend mode="multiply" in2="BackgroundImageFix" result="effect1_dropShadow_164_107372"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dy="4"/>
+            <feGaussianBlur stdDeviation="3"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0.14902 0 0 0 0 0.196078 0 0 0 0 0.219608 0 0 0 0.16 0"/>
+            <feBlend mode="multiply" in2="effect1_dropShadow_164_107372" result="effect2_dropShadow_164_107372"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_164_107372" result="shape"/>
+            </filter>
+            </defs>
+            </svg>
+          <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg" d="M16 31.75H12.85C12.293 31.75 11.7589 31.5287 11.3651 31.1349C10.9712 30.7411 10.75 30.207 10.75 29.65V22.3C10.75 21.743 10.9712 21.2089 11.3651 20.8151C11.7589 20.4212 12.293 20.2 12.85 20.2H16M23.35 18.1V13.9C23.35 13.0646 23.0181 12.2634 22.4274 11.6726C21.8366 11.0819 21.0354 10.75 20.2 10.75L16 20.2V31.75H27.844C28.3504 31.7557 28.8419 31.5782 29.2278 31.2502C29.6137 30.9222 29.8681 30.4657 29.944 29.965L31.393 20.515C31.4387 20.214 31.4184 19.9067 31.3335 19.6144C31.2486 19.322 31.1012 19.0516 30.9015 18.8219C30.7017 18.5922 30.4544 18.4086 30.1766 18.284C29.8989 18.1593 29.5974 18.0966 29.293 18.1H23.35Z" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
           <h3>Sales Growth</h3>
-          <p>Increase your sales.</p>
+          <p>Identify qualified customers with easy-to-use live chat messaging and AI-based Sales Bot</p>
           <a href="#" class="btn btn-outline-primary">Learn more</a>
         </div>
         <div class="col-md-3 mb-4">
+          <svg width="70" height="72" viewBox="0 0 70 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="70" height="70" rx="35" fill="#E84393"/>
+            <g filter="url(#filter0_dd_164_107372)">
+            <path d="M39.1134 26.6C40.4808 26.8668 41.7375 27.5356 42.7227 28.5207C43.7078 29.5059 44.3766 30.7626 44.6434 32.13M39.1134 21C41.9543 21.3156 44.6036 22.5878 46.6261 24.6078C48.6486 26.6278 49.9242 29.2754 50.2434 32.116M48.8434 43.288V47.488C48.8449 47.8779 48.7651 48.2638 48.6089 48.6211C48.4527 48.9783 48.2236 49.299 47.9363 49.5626C47.649 49.8262 47.3098 50.0269 46.9404 50.1518C46.5711 50.2767 46.1797 50.3231 45.7914 50.288C41.4833 49.8199 37.3452 48.3478 33.7094 45.99C30.3267 43.8405 27.4588 40.9726 25.3094 37.59C22.9433 33.9377 21.4709 29.7794 21.0114 25.452C20.9764 25.0649 21.0224 24.6747 21.1465 24.3063C21.2705 23.9379 21.47 23.5994 21.732 23.3123C21.9941 23.0252 22.3131 22.7958 22.6687 22.6387C23.0243 22.4817 23.4086 22.4004 23.7974 22.4H27.9974C28.6768 22.3933 29.3355 22.6339 29.8506 23.0769C30.3658 23.52 30.7023 24.1352 30.7974 24.808C30.9746 26.1521 31.3034 27.4718 31.7774 28.742C31.9657 29.2431 32.0065 29.7877 31.8948 30.3112C31.7832 30.8348 31.5238 31.3154 31.1474 31.696L29.3694 33.474C31.3623 36.979 34.2644 39.881 37.7694 41.874L39.5474 40.096C39.928 39.7196 40.4086 39.4602 40.9321 39.3485C41.4557 39.2369 42.0003 39.2776 42.5014 39.466C43.7715 39.94 45.0913 40.2687 46.4354 40.446C47.1154 40.5419 47.7365 40.8845 48.1805 41.4085C48.6245 41.9325 48.8604 42.6014 48.8434 43.288Z" stroke="#FFEAA7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+            <defs>
+            <filter id="filter0_dd_164_107372" x="-9" y="-5" width="88" height="88" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dy="4"/>
+            <feGaussianBlur stdDeviation="8"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0.14902 0 0 0 0 0.196078 0 0 0 0 0.219608 0 0 0 0.08 0"/>
+            <feBlend mode="multiply" in2="BackgroundImageFix" result="effect1_dropShadow_164_107372"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dy="4"/>
+            <feGaussianBlur stdDeviation="3"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0.14902 0 0 0 0 0.196078 0 0 0 0 0.219608 0 0 0 0.16 0"/>
+            <feBlend mode="multiply" in2="effect1_dropShadow_164_107372" result="effect2_dropShadow_164_107372"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_164_107372" result="shape"/>
+            </filter>
+            </defs>
+            </svg>
+          <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg" d="M16 31.75H12.85C12.293 31.75 11.7589 31.5287 11.3651 31.1349C10.9712 30.7411 10.75 30.207 10.75 29.65V22.3C10.75 21.743 10.9712 21.2089 11.3651 20.8151C11.7589 20.4212 12.293 20.2 12.85 20.2H16M23.35 18.1V13.9C23.35 13.0646 23.0181 12.2634 22.4274 11.6726C21.8366 11.0819 21.0354 10.75 20.2 10.75L16 20.2V31.75H27.844C28.3504 31.7557 28.8419 31.5782 29.2278 31.2502C29.6137 30.9222 29.8681 30.4657 29.944 29.965L31.393 20.515C31.4387 20.214 31.4184 19.9067 31.3335 19.6144C31.2486 19.322 31.1012 19.0516 30.9015 18.8219C30.7017 18.5922 30.4544 18.4086 30.1766 18.284C29.8989 18.1593 29.5974 18.0966 29.293 18.1H23.35Z" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
           <h3>Components</h3>
-          <p>Easy to use components.</p>
+          <p>Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>
           <a href="#" class="btn btn-outline-primary">Learn more</a>
         </div>
         <div class="col-md-3 mb-4">
+          
           <h3>Customization</h3>
-          <p>Customize your designs.</p>
+          <p>You can toggle to any icon within Instances and customize outlined stroke to more bolder or lighter</p>
           <a href="#" class="btn btn-outline-primary">Learn more</a>
         </div>
       </div>
     </div>
   </section>
+    <!-- <h2 class="pb-2 border-bottom">Features with title</h2>
+
+    <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+      <div class="col d-flex flex-column align-items-start gap-2">
+        <h2 class="fw-bold text-body-emphasis">Delivering good designs since 1954</h2>
+        <p class="text-body-secondary">We’re the first multi-purpose design kit solutions for businesses. We help you bridge
+          gaps between your layouts, templates and developers to empower all involved.</p>
+         <a href="#" class="btn btn-primary btn-lg">Primary button</a> -->
+      <!-- </div>
+
+      <div class="col">
+        <div class="row row-cols-1 row-cols-sm-2 g-4">
+          <div class="col d-flex flex-column gap-2">
+            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#collection" />
+              </svg>
+            </div>
+            <h4 class="fw-semibold mb-0 text-body-emphasis">Featured title</h4>
+            <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
+            <a href="#" class="btn btn-outline-primary">Learn more</a>
+          </div>
+
+          <div class="col d-flex flex-column gap-2">
+            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#gear-fill" />
+              </svg>
+            </div>
+            <h4 class="fw-semibold mb-0 text-body-emphasis">Featured title</h4>
+            <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
+          </div>
+
+          <div class="col d-flex flex-column gap-2">
+            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#speedometer" />
+              </svg>
+            </div>
+            <h4 class="fw-semibold mb-0 text-body-emphasis">Featured title</h4>
+            <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
+          </div>
+
+          <div class="col d-flex flex-column gap-2">
+            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#table" />
+              </svg>
+            </div>
+            <h4 class="fw-semibold mb-0 text-body-emphasis">Featured title</h4>
+            <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> --> 
 
   <!-- Pricing Section -->
   <section class="pricing-section text-center py-5">

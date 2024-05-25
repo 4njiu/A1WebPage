@@ -1,20 +1,40 @@
 // Variables
-$primary-color: purple;
+$primary-color: #6C5CE7;
 $secondary-color: #6c757d;
 $light-color: #f8f9fa;
 $dark-color: #343a40;
+$border-radius-pill: 50rem;
 
 // General Styles
 body {
   font-family: Arial, sans-serif;
 }
+.nav-item{
+  position: center;
+}
+.btn{
+  background-color: #6C5CE7;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  color: white;
+}
+
 
 // Header Styles
 header .navbar-brand {
   font-weight: bold;
+
 }
 
 // Hero Section Styles
+
+.hero-section {
+  padding: 50px 0;
+  background: url('../public/assets/img/Rectangle.png') no-repeat center right; /* Background image */
+  background-size: cover; /* Ensure the background covers the entire section */
+}
+
 .hero-section {
   padding: 50px 0;
 }
@@ -29,7 +49,7 @@ header .navbar-brand {
 
 .hero-section .btn {
   background-color: $primary-color;
-  border: none;
+  border: $border-radius-pill;
   &:hover {
     background-color: darken($primary-color, 10%);
   }

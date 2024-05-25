@@ -2,8 +2,26 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.nav-item {
+  position: center;
+}
+
+.btn {
+  background-color: #6C5CE7;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  color: white;
+}
+
 header .navbar-brand {
   font-weight: bold;
+}
+
+.hero-section {
+  padding: 50px 0;
+  background: url("../public/assets/img/Rectangle.png") no-repeat center right; /* Background image */
+  background-size: cover; /* Ensure the background covers the entire section */
 }
 
 .hero-section {
@@ -19,11 +37,11 @@ header .navbar-brand {
 }
 
 .hero-section .btn {
-  background-color: purple;
-  border: none;
+  background-color: #6C5CE7;
+  border: 50rem;
 }
 .hero-section .btn:hover {
-  background-color: #4d004d;
+  background-color: #4430e0;
 }
 
 .design-section {
@@ -64,16 +82,16 @@ footer .form-control {
   border: 1px solid #6c757d;
 }
 footer .form-control:focus {
-  border-color: purple;
-  box-shadow: 0 0 0 0.2rem rgba(128, 0, 128, 0.25);
+  border-color: #6C5CE7;
+  box-shadow: 0 0 0 0.2rem rgba(108, 92, 231, 0.25);
 }
 
 footer .btn {
-  background-color: purple;
+  background-color: #6C5CE7;
   border: none;
 }
 footer .btn:hover {
-  background-color: #4d004d;
+  background-color: #4430e0;
 }
 
 /*# sourceMappingURL=style.css.map */
