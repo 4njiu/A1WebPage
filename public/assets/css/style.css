@@ -1,75 +1,79 @@
-/* General Styles */
 body {
-    font-family: Arial, sans-serif;
-  }
-  
-  /* Header Styles */
-  header .navbar-brand {
-    font-weight: bold;
-  }
-  
-  /* Hero Section Styles */
-  .hero-section {
-    padding: 50px 0;
-  }
-  
-  .hero-content h1 {
-    font-size: 2.5rem;
-  }
-  
-  .hero-content p {
-    margin: 20px 0;
-  }
-  
-  /* "Delivering Good Designs" Section */
-  .design-section {
-    padding: 50px 0;
-  }
-  
-  .design-content h2 {
-    font-size: 2rem;
-  }
-  
-  .design-content p {
-    margin: 20px 0;
-  }
-  
-  /* Footer Styles */
-  footer {
-    padding: 50px 0;
-    background-color: #f8f9fa;
-  }
-  
-  .footer-content h3 {
-    font-size: 1.5rem;
-  }
-  
-  .footer-content p {
-    margin: 20px 0;
-  }
-  
-  .contact-form .form-group {
-    margin-bottom: 15px;
-  }
-  
-  .contact-form label {
-    margin-bottom: 5px;
-  }
-  
-  .contact-form input {
-    border: 1px solid #6c757d;
-  }
-  
-  .contact-form input:focus {
-    border-color: #007bff;
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-  }
-  
-  .contact-form .btn {
-    background-color: #007bff;
-    border: none;
-  }
-  
-  .contact-form .btn:hover {
-    background-color: #0056b3;
-  }
+  font-family: Arial, sans-serif;
+}
+
+header .navbar-brand {
+  font-weight: bold;
+}
+
+.hero-section {
+  padding: 50px 0;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+}
+
+.hero-section p {
+  margin: 20px 0;
+}
+
+.hero-section .btn {
+  background-color: purple;
+  border: none;
+}
+.hero-section .btn:hover {
+  background-color: #4d004d;
+}
+
+.design-section {
+  padding: 50px 0;
+}
+
+.design-section h2 {
+  font-size: 2rem;
+}
+
+.design-section p {
+  margin: 20px 0;
+}
+
+.pricing-section {
+  padding: 50px 0;
+}
+
+.pricing-section h2 {
+  font-size: 2rem;
+}
+
+.pricing-section p {
+  margin: 20px 0;
+}
+
+.pricing-section .card {
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+}
+
+footer .form-control {
+  border: 1px solid #6c757d;
+}
+footer .form-control:focus {
+  border-color: purple;
+  box-shadow: 0 0 0 0.2rem rgba(128, 0, 128, 0.25);
+}
+
+footer .btn {
+  background-color: purple;
+  border: none;
+}
+footer .btn:hover {
+  background-color: #4d004d;
+}
+
+/*# sourceMappingURL=style.css.map */
