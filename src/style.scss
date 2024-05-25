@@ -1,0 +1,87 @@
+// Variables
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$light-color: #f8f9fa;
+$dark-color: #343a40;
+
+// General Styles
+body {
+  font-family: Arial, sans-serif;
+}
+
+// Header Styles
+header .navbar-brand {
+  font-weight: bold;
+}
+
+// Hero Section Styles
+.hero-section {
+  padding: 50px 0;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+}
+
+.hero-content p {
+  margin: 20px 0;
+}
+
+.hero-content .btn {
+  background-color: $primary-color;
+  border: none;
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+// "Delivering Good Designs" Section
+.design-section {
+  padding: 50px 0;
+}
+
+.design-content h2 {
+  font-size: 2rem;
+}
+
+.design-content p {
+  margin: 20px 0;
+}
+
+// Footer Styles
+footer {
+  padding: 50px 0;
+  background-color: $light-color;
+}
+
+.footer-content h3 {
+  font-size: 1.5rem;
+}
+
+.footer-content p {
+  margin: 20px 0;
+}
+
+.contact-form .form-group {
+  margin-bottom: 15px;
+}
+
+.contact-form label {
+  margin-bottom: 5px;
+}
+
+.contact-form input {
+  border: 1px solid $secondary-color;
+  &:focus {
+    border-color: $primary-color;
+    box-shadow: 0 0 0 0.2rem rgba($primary-color, 0.25);
+  }
+}
+
+.contact-form .btn {
+  background-color: $primary-color;
+  border: none;
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
