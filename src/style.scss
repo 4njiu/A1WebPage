@@ -1,5 +1,5 @@
 // Variables
-$primary-color: #007bff;
+$primary-color: purple;
 $secondary-color: #6c757d;
 $light-color: #f8f9fa;
 $dark-color: #343a40;
@@ -19,15 +19,15 @@ header .navbar-brand {
   padding: 50px 0;
 }
 
-.hero-content h1 {
+.hero-section h1 {
   font-size: 2.5rem;
 }
 
-.hero-content p {
+.hero-section p {
   margin: 20px 0;
 }
 
-.hero-content .btn {
+.hero-section .btn {
   background-color: $primary-color;
   border: none;
   &:hover {
@@ -40,12 +40,30 @@ header .navbar-brand {
   padding: 50px 0;
 }
 
-.design-content h2 {
+.design-section h2 {
   font-size: 2rem;
 }
 
-.design-content p {
+.design-section p {
   margin: 20px 0;
+}
+
+// Pricing Section
+.pricing-section {
+  padding: 50px 0;
+}
+
+.pricing-section h2 {
+  font-size: 2rem;
+}
+
+.pricing-section p {
+  margin: 20px 0;
+}
+
+.pricing-section .card {
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 // Footer Styles
@@ -54,23 +72,7 @@ footer {
   background-color: $light-color;
 }
 
-.footer-content h3 {
-  font-size: 1.5rem;
-}
-
-.footer-content p {
-  margin: 20px 0;
-}
-
-.contact-form .form-group {
-  margin-bottom: 15px;
-}
-
-.contact-form label {
-  margin-bottom: 5px;
-}
-
-.contact-form input {
+footer .form-control {
   border: 1px solid $secondary-color;
   &:focus {
     border-color: $primary-color;
@@ -78,7 +80,7 @@ footer {
   }
 }
 
-.contact-form .btn {
+footer .btn {
   background-color: $primary-color;
   border: none;
   &:hover {

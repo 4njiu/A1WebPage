@@ -5,7 +5,7 @@
   "scripts": {
     "start": "concurrently \"npm run lite\" \"npm run sass\"",
     "lite": "lite-server --baseDir=\"public\"",
-    "sass": "sass --watch src/styles.scss:public/styles.css"
+    "sass": "sass --watch src/:public/assets/css/"
   },
   "keywords": [],
   "author": "",

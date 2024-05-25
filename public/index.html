@@ -3,63 +3,137 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive Web Page</title>
+  <title>Responsive Webpage</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-  <!-- Header and Main Navigation -->
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Brand</a>
+  <!-- Header -->
+  <header class="bg-light py-3">
+    <nav class="container navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">Grid</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#">How it works</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Who we are</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#">What we do</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link" href="#">Contact us</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-primary" href="#">Sign In</a>
           </li>
         </ul>
       </div>
     </nav>
   </header>
 
-  <!-- CSS Grid Hero Section -->
-  <section class="hero-section">
+  <!-- Hero Section -->
+  <section class="hero-section text-center py-5">
     <div class="container">
+      <h1>Combine <span class="text-primary">fine</span> images</h1>
+      <p>To represent a product</p>
       <div class="row">
-        <div class="col-md-6 hero-content">
-          <h1>Welcome to Our Website</h1>
-          <p>We deliver great designs and affordable pricing.</p>
-          <button class="btn btn-primary">Learn More</button>
+        <div class="col-md-3 mb-4">
+          <img src="hero1.jpg" class="img-fluid" alt="Hero Image 1">
         </div>
-        <div class="col-md-6 hero-image">
-          <img src="hero-image.jpg" alt="Hero Image" class="img-fluid">
+        <div class="col-md-3 mb-4">
+          <img src="hero2.jpg" class="img-fluid" alt="Hero Image 2">
+        </div>
+        <div class="col-md-3 mb-4">
+          <img src="hero3.jpg" class="img-fluid" alt="Hero Image 3">
+        </div>
+        <div class="col-md-3 mb-4">
+          <img src="hero4.jpg" class="img-fluid" alt="Hero Image 4">
+        </div>
+      </div>
+      <a href="#" class="btn btn-primary">Learn more</a>
+    </div>
+  </section>
+
+  <!-- "Delivering Good Designs" Section -->
+  <section class="design-section text-center py-5">
+    <div class="container">
+      <h2>Delivering good designs since 1954</h2>
+      <p>We're the first multi-purpose design kit solutions for businesses.</p>
+      <div class="row">
+        <div class="col-md-3 mb-4">
+          <h3>Support</h3>
+          <p>Get access to support.</p>
+          <a href="#" class="btn btn-outline-primary">Learn more</a>
+        </div>
+        <div class="col-md-3 mb-4">
+          <h3>Sales Growth</h3>
+          <p>Increase your sales.</p>
+          <a href="#" class="btn btn-outline-primary">Learn more</a>
+        </div>
+        <div class="col-md-3 mb-4">
+          <h3>Components</h3>
+          <p>Easy to use components.</p>
+          <a href="#" class="btn btn-outline-primary">Learn more</a>
+        </div>
+        <div class="col-md-3 mb-4">
+          <h3>Customization</h3>
+          <p>Customize your designs.</p>
+          <a href="#" class="btn btn-outline-primary">Learn more</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- "Delivering Good Designs" Section -->
-  <section class="design-section py-5">
+  <!-- Pricing Section -->
+  <section class="pricing-section text-center py-5">
     <div class="container">
+      <h2>Affordable pricing</h2>
+      <p>Bill me <span class="text-primary">monthly</span> • yearly</p>
       <div class="row">
-        <div class="col-md-6 design-image">
-          <img src="design-image.jpg" alt="Design Image" class="img-fluid">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Free</h3>
+              <p class="card-text">Components-driven system</p>
+              <p class="card-text">Sales-boosting landing pages</p>
+              <p class="card-text">Awesome Feather icons pack</p>
+              <a href="#" class="btn btn-outline-primary">Try for free</a>
+            </div>
+          </div>
         </div>
-        <div class="col-md-6 design-content">
-          <h2>Delivering Good Designs</h2>
-          <p>Our team of experts ensures top-notch designs for your needs.</p>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Individual</h3>
+              <p class="card-text">$24 / month</p>
+              <p class="card-text">Components-driven system</p>
+              <p class="card-text">Sales-boosting landing pages</p>
+              <p class="card-text">Awesome Feather icons pack</p>
+              <p class="card-text">Themed into 3 different styles</p>
+              <p class="card-text">Will help to learn Figma</p>
+              <a href="#" class="btn btn-primary">Regular license</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Corporate</h3>
+              <p class="card-text">$12 / editor</p>
+              <p class="card-text">Components-driven system</p>
+              <p class="card-text">Sales-boosting landing pages</p>
+              <p class="card-text">Awesome Feather icons pack</p>
+              <p class="card-text">Themed into 3 different styles</p>
+              <p class="card-text">Will help to learn Figma</p>
+              <a href="#" class="btn btn-outline-primary">Extended license</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -69,11 +143,11 @@
   <footer class="bg-light py-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 footer-content">
+        <div class="col-md-6 mb-4">
           <h3>Contact Us</h3>
           <p>Feel free to reach out to us for any inquiries.</p>
         </div>
-        <div class="col-md-6 contact-form d-none d-md-block">
+        <div class="col-md-6 d-none d-md-block">
           <form>
             <div class="form-group">
               <label for="name">Name</label>
