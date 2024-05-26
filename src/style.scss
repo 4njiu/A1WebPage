@@ -21,7 +21,7 @@ nav {
 }
 
 .sign-in {
-  background-color:$primary-color;
+  background-color: $primary-color;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -137,7 +137,10 @@ header .navbar-brand {
   border: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
+.pricing-section .card {
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 .pricing-section .btn-primary{
   border-radius: 10px;
   font-weight: bold;
