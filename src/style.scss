@@ -4,22 +4,57 @@ $secondary-color: #6c757d;
 $light-color: #f8f9fa;
 $dark-color: #343a40;
 $border-radius-pill: 50rem;
+$border-color:#343a40;
+
+//nav
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);}
+
+
+.bold {
+  font-weight: bold;
+}
+
+.sign-in {
+  background-color:$primary-color;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+ .navwords {
+  color: $primary-color;
+}
 
 // General Styles
 body {
   font-family: Arial, sans-serif;
+    background-image: url();
+    background-size: 70%;
+    background-position: right top;
+    background-repeat: no-repeat;
 }
 .nav-item{
   position: center;
 }
-.btn{
-  background-color: #6C5CE7;
+.nav .btn{
+  background-color: $primary-color;
   border: none;
   border-radius: 10px;
   font-weight: 700;
   color: white;
 }
-
+nav .navwords{
+  color: $primary-color;
+}
 
 // Header Styles
 header .navbar-brand {
@@ -31,8 +66,7 @@ header .navbar-brand {
 
 .hero-section {
   padding: 50px 0;
-  background: url('../public/assets/img/Rectangle.png') no-repeat center right; /* Background image */
-  background-size: cover; /* Ensure the background covers the entire section */
+  background: url('../public/assets/img/background.jpg') no-repeat center right;
 }
 
 .hero-section {
@@ -40,19 +74,28 @@ header .navbar-brand {
 }
 
 .hero-section h1 {
-  font-size: 2.5rem;
+  font-size: 96px;
+  font-weight: 800;
+  text-shadow: 2px 2px 0px white;
 }
 
 .hero-section p {
   margin: 20px 0;
+  font-size: 64px;
+  font-weight: 900;
 }
 
 .hero-section .btn {
   background-color: $primary-color;
   border: $border-radius-pill;
-  &:hover {
-    background-color: darken($primary-color, 10%);
-  }
+  border-radius: 50px;
+  font-weight: bold;
+}
+.fine {
+  color: red; 
+  text-shadow: 2px 2px 0px white;
+  text-decoration: underline; 
+  text-decoration-color: aqblue; 
 }
 
 // "Delivering Good Designs" Section
@@ -67,7 +110,16 @@ header .navbar-brand {
 .design-section p {
   margin: 20px 0;
 }
-
+.design-section .btn-primary{
+  color: $primary-color;
+  background: #ffffff;
+  border-color: #b8babd;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 8px;
+}
 // Pricing Section
 .pricing-section {
   padding: 50px 0;
@@ -84,6 +136,14 @@ header .navbar-brand {
 .pricing-section .card {
   border: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-section .btn-primary{
+  border-radius: 10px;
+  font-weight: bold;
+  color: $primary-color;
+  border-color: #b8babd;
+  background-color: white;
 }
 
 // Footer Styles

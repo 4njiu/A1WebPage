@@ -1,17 +1,52 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.sign-in {
+  background-color: #6C5CE7;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.navwords {
+  color: #6C5CE7;
+}
+
 body {
   font-family: Arial, sans-serif;
+  background-image: url();
+  background-size: 70%;
+  background-position: right top;
+  background-repeat: no-repeat;
 }
 
 .nav-item {
   position: center;
 }
 
-.btn {
+.nav .btn {
   background-color: #6C5CE7;
   border: none;
   border-radius: 10px;
   font-weight: 700;
   color: white;
+}
+
+nav .navwords {
+  color: #6C5CE7;
 }
 
 header .navbar-brand {
@@ -20,8 +55,7 @@ header .navbar-brand {
 
 .hero-section {
   padding: 50px 0;
-  background: url("../public/assets/img/Rectangle.png") no-repeat center right; /* Background image */
-  background-size: cover; /* Ensure the background covers the entire section */
+  background: url("../public/assets/img/background.jpg") no-repeat center right;
 }
 
 .hero-section {
@@ -29,19 +63,29 @@ header .navbar-brand {
 }
 
 .hero-section h1 {
-  font-size: 2.5rem;
+  font-size: 96px;
+  font-weight: 800;
+  text-shadow: 2px 2px 0px white;
 }
 
 .hero-section p {
   margin: 20px 0;
+  font-size: 64px;
+  font-weight: 900;
 }
 
 .hero-section .btn {
   background-color: #6C5CE7;
   border: 50rem;
+  border-radius: 50px;
+  font-weight: bold;
 }
-.hero-section .btn:hover {
-  background-color: #4430e0;
+
+.fine {
+  color: red;
+  text-shadow: 2px 2px 0px white;
+  text-decoration: underline;
+  text-decoration-color: aqblue;
 }
 
 .design-section {
@@ -54,6 +98,17 @@ header .navbar-brand {
 
 .design-section p {
   margin: 20px 0;
+}
+
+.design-section .btn-primary {
+  color: #6C5CE7;
+  background: #ffffff;
+  border-color: #b8babd;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 8px;
 }
 
 .pricing-section {
@@ -71,6 +126,14 @@ header .navbar-brand {
 .pricing-section .card {
   border: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-section .btn-primary {
+  border-radius: 10px;
+  font-weight: bold;
+  color: #6C5CE7;
+  border-color: #b8babd;
+  background-color: white;
 }
 
 footer {
